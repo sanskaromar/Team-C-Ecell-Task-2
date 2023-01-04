@@ -28,9 +28,9 @@ const Testimonial =()=>{
         <>
         <div className="bg-back">
         <div className=" p-[20px] bg-back flex justify-center items-center"><h1 className="mt-4 pt-8 text-pblue font-bold text-3xl ">Lines Of Appreciation</h1></div>
-        <div className=" bg-back pt-[30px] pb-[50px] w-full flex justify-center items-center">
+        <div className=" bg-back pt-[30px] pb-[50px] w-full flex justify-center items-center ">
             
-            <div onClick={prev} className="cursor-pointer mr-[40px] h-[30px] w-[30px] bg-blue flex justify-center items-center rounded-[5000px]">
+            <div onClick={prev} className="hidden md:block md:flex md:justify-center md:items-center lg:flex lg:justify-center lg:items-center lg:block cursor-pointer mr-[40px] h-[30px] w-[30px] bg-blue flex justify-center items-center rounded-[5000px]">
             <GrLinkPrevious color="white"/>
             </div>
             
@@ -70,10 +70,26 @@ const Testimonial =()=>{
                 </div>
             </div>  
 
-            <div onClick={next}   className="cursor-pointer ml-[40px]  h-[30px] w-[30px] bg-blue flex justify-center items-center rounded-[5000px]">
+            <div onClick={next}   className="hidden md:block md:flex md:justify-center md:items-center lg:flex lg:justify-center lg:items-center lg:block cursor-pointer ml-[40px]  h-[30px] w-[30px] bg-blue flex justify-center items-center rounded-[5000px]">
             <GrLinkNext color="white" />
             </div>
+
+            
+
         </div>
+
+        <div className="w-full flex justify-center items-center mb-[30px] ">
+        <div className="lg:hidden md:hidden flex">
+            <div onClick={prev} className="cursor-pointer  mr-[30px] h-[30px] w-[30px] bg-blue flex justify-center items-center rounded-[5000px]">
+            <GrLinkPrevious color="white"/>
+            </div>
+
+            <div onClick={next}   className="cursor-pointer   h-[30px] w-[30px] bg-blue flex justify-center items-center rounded-[5000px]">
+            <GrLinkNext color="white" />
+            </div>
+            </div>
+        </div>
+        
         </div>
         </>
     )
