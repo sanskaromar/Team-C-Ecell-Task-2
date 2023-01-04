@@ -33,7 +33,7 @@ const Home = () => {
 
           <div className='h-[325px] flex justify-center items-center'>
 
-             <div className='Ren bg-gray-800 w-3/4 h-60 m-2 rounded-lg flex flex-col  items-center lg:w-80'>
+             <div className='Ren bg-gray-800 w-3/4 h-60 m-2 rounded-lg flex flex-col  items-center lg:w-80 '>
                    <div className='text-[20px] h-20 flex items-center text-white font-semibold '>
                       Registeration Open
                    </div>

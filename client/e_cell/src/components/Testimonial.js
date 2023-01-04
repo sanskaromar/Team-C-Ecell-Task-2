@@ -35,6 +35,7 @@ const Testimonial =()=>{
             </div>
             
 
+<div className="flex justify-center ml-10">
             <div className="rounded h-[580px] w-[382px] bg-sec mr-[40px] flex flex-col p-[7px]">
                 <div className="h-[300px] w-[364px]">
                     <div className="h-[300px] w-[364px] absolute  bg-pblue opacity-40 z-5 hover:opacity-0 transition-all duration-1000"></div>
@@ -69,6 +70,8 @@ const Testimonial =()=>{
                     </p>
                 </div>
             </div>  
+
+            </div>
 
             <div onClick={next}   className="hidden md:block md:flex md:justify-center md:items-center lg:flex lg:justify-center lg:items-center lg:block cursor-pointer ml-[40px]  h-[30px] w-[30px] bg-blue flex justify-center items-center rounded-[5000px]">
             <GrLinkNext color="white" />

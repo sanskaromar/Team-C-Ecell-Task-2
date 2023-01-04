@@ -59,7 +59,7 @@ const Form = ()=>{
               </div>
 
               <div className=" p-8 m-5 w-0 md:w-1/4 hidden lg:w-1/2 lg:flex lg:justify-center">
-                <img className="animate-bounce duration-700 delay-200 transition-shadow ease-in-out border rounded-full " src="https://img.freepik.com/free-vector/contact-us-concept-illustration_114360-2299.jpg?w=360&t=st=1672580651~exp=1672581251~hmac=3f25c9801dcdb0da17ecc451c1025f20ea083854f3ce7f85b9e907b678b15e95"></img>
+                <img className="animate-ping1 border rounded-full " src="https://img.freepik.com/free-vector/contact-us-concept-illustration_114360-2299.jpg?w=360&t=st=1672580651~exp=1672581251~hmac=3f25c9801dcdb0da17ecc451c1025f20ea083854f3ce7f85b9e907b678b15e95"></img>
               </div>
 
             </div>

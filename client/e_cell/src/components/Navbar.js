@@ -24,19 +24,20 @@ function Navbar()
 
     return(
         <>
-       <div className='Navbar top-0  bg-blue w-full  drop-shadow-2xl flex justify-between '>
+        <div className='sticky top-0'>
+           <div className='Navbar top-0  bg-blue w-full  drop-shadow-2xl flex justify-between '>
          
          <div className='ml-[20px] flex items-center p-2 '>
            <img className='w-10 rounded-full hover:scale-110' src='https://ecellmnnit.com//images/footer/ECellLogo.jpeg'></img>
          </div>
 
          <div className=' items-center gap-10 p-2 hidden  lg:flex flex-row  text-white' >
-               <p className='hover:bg-gray-700 hover:rounded-lg p-1 drop-shadow-lg cursor-pointer' onClick={()=>Scroll=0}><a href='#Home'>Home</a></p>
-               <p className='hover:bg-gray-700 hover:rounded-lg p-1 drop-shadow-lg cursor-pointer' onClick={()=>Scroll=1}><a href='#Event'>Event</a></p>
-               <p className='hover:bg-gray-700 hover:rounded-lg p-1 drop-shadow-lg cursor-pointer' onClick={()=>Scroll=2}><a href='#Startup'>Startup</a></p>
-               <p className='hover:bg-gray-700 hover:rounded-lg p-1 drop-shadow-lg cursor-pointer' onClick={()=>Scroll=3}><a href='#Webinar'>Webinar</a></p>
-               <p className='hover:bg-gray-700 hover:rounded-lg p-1 drop-shadow-lg cursor-pointer' onClick={()=>Scroll=4}><a href='#Team'>Team</a></p>
-               <p className='hover:bg-gray-700 hover:rounded-lg p-1 drop-shadow-lg cursor-pointer' onClick={()=>Scroll=5}><a href='#Get'>Contact</a></p>
+               <p className='hover:bg-gray-700 hover:rounded-lg p-1 drop-shadow-lg cursor-pointer' ><a href='#Home'>Home</a></p>
+               <p className='hover:bg-gray-700 hover:rounded-lg p-1 drop-shadow-lg cursor-pointer' ><a href='#Event'>Event</a></p>
+               <p className='hover:bg-gray-700 hover:rounded-lg p-1 drop-shadow-lg cursor-pointer' ><a href='#Startup'>Startup</a></p>
+               <p className='hover:bg-gray-700 hover:rounded-lg p-1 drop-shadow-lg cursor-pointer' ><a href='#Webinar'>Webinar</a></p>
+               <p className='hover:bg-gray-700 hover:rounded-lg p-1 drop-shadow-lg cursor-pointer' ><a href='#Team'>Team</a></p>
+               <p className='hover:bg-gray-700 hover:rounded-lg p-1 drop-shadow-lg cursor-pointer' ><a href='#Get'>Contact</a></p>
          </div> 
          
        
@@ -46,9 +47,10 @@ function Navbar()
           
          </div>
          
+           </div>
        </div>
        
-       <div className={`Sidebar Menu fixed top-16 right-[-20px]  bg-gradient-to-r from-cyan-400 to-teal-400 drop-shadow-2xl  rounded-lg ${menu ? 'w-3/4 m-2 h-[596px] p-1 ':'w-0 h-[200px] p-0'} transform  duration-500 lg:hidden`}>
+       <div className={`Sidebar  Menu fixed top-16 right-[-20px]  bg-gradient-to-r from-cyan-400 to-teal-400 drop-shadow-2xl  rounded-lg ${menu ? 'w-3/4 m-2 h-[596px] p-1 ':'w-0 h-[200px] p-0'} transform  duration-500 lg:hidden`}>
 
          
           <div className='w-full text-white bg-gray-900 p-4 rounded-lg'>
@@ -67,12 +69,12 @@ function Navbar()
             
 
             <div className={`h-[200px] flex flex-col justify-center items-start ${menu ? 'h-40' : 'h-0 text-[0px]'} transform duration-500`}>
-            <p className='pt-2 pb-1 hover:bg-gray-700 w-full hover: rounded-lg p-2'>Home</p>
-            <p className='pt-2 pb-1 hover:bg-gray-700 w-full rounded-lg p-2'>Event</p>
-            <p className='pt-2 pb-1 hover:bg-gray-700 w-full rounded-lg p-2'>Startup</p>
-            <p className='pt-2 pb-1 hover:bg-gray-700 w-full rounded-lg p-2'>Webinar</p>
-            <p className='pt-2 pb-1 hover:bg-gray-700 w-full rounded-lg p-2'>Team</p>
-            <p className='pt-2 pb-1 hover:bg-gray-700 w-full rounded-lg p-2'>Contact</p>
+            <p className='pt-2 pb-1 hover:bg-gray-700 w-full rounded-lg p-2'><a href='#Home'>Home</a></p>
+            <p className='pt-2 pb-1 hover:bg-gray-700 w-full rounded-lg p-2'><a href='#Event'>Event</a></p>
+            <p className='pt-2 pb-1 hover:bg-gray-700 w-full rounded-lg p-2'><a href='#Startup'>Startup</a></p>
+            <p className='pt-2 pb-1 hover:bg-gray-700 w-full rounded-lg p-2'><a href='#Webinar'>Webinar</a></p>
+            <p className='pt-2 pb-1 hover:bg-gray-700 w-full rounded-lg p-2'><a href='#Team'>Team</a></p>
+            <p className='pt-2 pb-1 hover:bg-gray-700 w-full rounded-lg p-2'><a href='#Get'>Contact</a></p>
             </div> 
           </div>
           
