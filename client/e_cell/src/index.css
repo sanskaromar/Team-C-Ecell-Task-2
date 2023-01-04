@@ -10,3 +10,12 @@
 html{
     scroll-behavior: smooth;
 }
+
+@media only screen and (max-width:400){
+    #getdiv{
+        width:300px;
+    }
+    #getdiv p{
+        size:12px;
+    }
+}

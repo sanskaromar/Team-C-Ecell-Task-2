@@ -51,8 +51,10 @@ const Home = () => {
 
           <div className='text-white text-[40px]   flex justify-center items-center  animate-bounce'>
             <div className='bg-teal-300 rounded-full '>
+            
                <div className='bg-black rounded-full m-1 cursor-pointer hover:bg-white hover:text-black'>
-                  <BiChevronsDown/>
+
+                  <a href="#Get"><BiChevronsDown/></a>
                 </div>
             </div>
           </div> 

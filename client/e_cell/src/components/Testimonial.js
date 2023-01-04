@@ -35,7 +35,7 @@ const Testimonial =()=>{
             </div>
             
 
-            <div className="rounded h-[580px] w-[382px] bg-sec mr-[40px] flex flex-col p-[7px]">
+            <div className="rounded h-[580px] w-[382px] bg-sec lg:mr-[40px] flex flex-col p-[7px]">
                 <div className="h-[300px] w-[364px]">
                     <div className="h-[300px] w-[364px] absolute  bg-pblue opacity-40 z-5 hover:opacity-0 transition-all duration-1000"></div>
                     <img className="w-full h-full mb-[10px]" src={testimonial[idx].img}></img>

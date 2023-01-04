@@ -27,7 +27,7 @@ const Get=()=>{
       <div className="flex flex-col justify-center items-center">
         <p data-aos="zoom-in" className=" text-pblue mt-[20px] mb-[50px] text-4xl font-black aos-init aos-animate">Get In Touch</p>
 
-        <div className="flex flex-col bg-sec mb-[50px] pl-[40px] pr-[40px] pt-[70px] pb-[70px] w-[400px] rounded md:w-[600px] md:rounded-tr-full md:rounded-bl-full lg:w-[700px] lg:rounded-tr-full lg:rounded-bl-full">
+        <div id="get" className="flex flex-col bg-sec mb-[50px] pl-[40px] pr-[40px] pt-[70px] pb-[70px] w-[400px] rounded md:w-[600px] md:rounded-tr-full md:rounded-bl-full lg:w-[700px] lg:rounded-tr-full lg:rounded-bl-full">
           <div className="flex justify-center items-center  mb-[20px]">
             <div className="flex w-[306px] ">
             <div className="flex justify-center items-center flex-[0.2] mr-[30px]"><SlLocationPin className="hover:scale-110" size="20px" color="hsl(179, 93%, 44%)"/></div>
