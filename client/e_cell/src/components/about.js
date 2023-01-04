@@ -35,9 +35,7 @@ const  About = () =>
                   
                     </div>
                    
-                    <div className={`m-8 lg:m-0 lg:w-full rounded-xl bg-cover h-40 lg:h-80 bg-[url("https://ecellmnnit.com//icons/AboutUs/rectangle.png")] hidden  ${read?'lg:block':'lg:hidden'}`}>
                   
-                    </div>
                 
 
 
