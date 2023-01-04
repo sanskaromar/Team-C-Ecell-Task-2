@@ -78,22 +78,23 @@ const Events = () => {
            </div>
        </div>
 
-       <div className='flex justify-center items-center '>
         
+        <div className='flex w-screen'>
         
-        
-       <div id='slider' className='bg-back overflow-x-scroll h-[230px] scroll-smooth whitespace-nowrap scrollbar-hide '>
+       <div id='slider' className='bg-back overflow-x-scroll h-[230px]  scroll-smooth whitespace-nowrap scrollbar-hide '>
            
-           <div className='w-50 h-40 inline-block text-center '><img className={`${card==0 ? 'border-4  border-teal-300':''} w-50 h-40 m-2 inline-block cursor-pointer hover:scale-110 transition-all duration-1000  rounded-lg`} src={event[0].images} onClick={() => setter(0)}></img><p className='bg-back text-white pt-1 pb-1  m-2 rounded border-2'>{event[0].name}</p></div>
-           <div className='w-50 h-40 inline-block text-center '><img className={`${card==1 ? 'border-4  border-teal-300':''} w-52 h-40 m-2 inline-block cursor-pointer hover:scale-110 transition-all duration-1000  rounded-lg`} src={event[1].images} onClick={() => setter(1)}></img><p className='bg-back text-white pt-1 pb-1  m-2 rounded border-2'>{event[1].name}</p></div>
-           <div className='w-50 h-40 inline-block text-center'><img className={`${card==2 ? 'border-4  border-teal-300':''} w-52 h-40 m-2 inline-block cursor-pointer hover:scale-110 transition-all duration-1000  rounded-lg`} src={event[2].images} onClick={() => setter(2)}></img><p className='bg-back text-white pt-1 pb-1 m-2 rounded border-2'>{event[2].name}</p></div>
-           <div className='w-50 h-40 inline-block text-center '><img className={`${card==3 ? 'border-4  border-teal-300':''} w-52 h-40 m-2 inline-block cursor-pointer hover:scale-110 transition-all duration-1000  rounded-lg`} src={event[3].images} onClick={() => setter(3)}></img><p className='bg-back text-white pt-1 pb-1  m-2 rounded border-2'>{event[3].name}</p></div>
-           <div className='w-50 h-40 inline-block text-center'><img className={`${card==4 ? 'border-4  border-teal-300':''} w-52 h-40 m-2 inline-block cursor-pointer hover:scale-110 transition-all duration-1000  rounded-lg`} src={event[4].images} onClick={() => setter(4)}></img><p className='bg-back text-white pt-1 pb-1 m-2 rounded border-2'>{event[4].name}</p></div>
-           <div className='w-50 h-40 inline-block text-center '><img className={`${card==5 ? 'border-4  border-teal-300':''} w-52 h-40 m-2 inline-block cursor-pointer hover:scale-110 transition-all duration-1000  rounded-lg`} src={event[5].images} onClick={() => setter(5)}></img><p className='bg-back text-white pt-1 pb-1 m-2 rounded border-2'>{event[5].name}</p></div>
-           <div className='w-50 h-40 inline-block text-center'><img className={`${card==6 ? 'border-4  border-teal-300':''} w-52 h-40 m-2 inline-block cursor-pointer hover:scale-110 transition-all duration-1000  rounded-lg`} src={event[6].images} onClick={() => setter(6)}></img><p className='bg-back text-white pt-1 pb-1  m-2 rounded border-2'>{event[6].name}</p></div>
-           <div className='w-50 h-40 inline-block text-center'><img className={`${card==7 ? 'border-4  border-teal-300':''} w-52 h-40 m-2 inline-block cursor-pointer hover:scale-110 transition-all duration-1000  rounded-lg`} src={event[7].images} onClick={() => setter(7)}></img><p className='bg-back text-white pt-1 pb-1  m-2 rounded border-2'>{event[7].name}</p></div>
+           <div className=' h-40 inline-block text-center '><img className={`${card==0 ? 'border-4  border-teal-300':''} w-52 h-40 m-2 inline-block cursor-pointer hover:scale-110 transition-all duration-1000  rounded-lg`} src={event[0].images} onClick={() => setter(0)}></img><p className='bg-back text-white pt-1 pb-1  m-2 rounded border-2'>{event[0].name}</p></div>
+           <div className=' h-40 inline-block text-center '><img className={`${card==1 ? 'border-4  border-teal-300':''} w-52 h-40 m-2 inline-block cursor-pointer hover:scale-110 transition-all duration-1000  rounded-lg`} src={event[1].images} onClick={() => setter(1)}></img><p className='bg-back text-white pt-1 pb-1  m-2 rounded border-2'>{event[1].name}</p></div>
+           <div className=' h-40 inline-block text-center'><img className={`${card==2 ? 'border-4  border-teal-300':''} w-52 h-40 m-2 inline-block cursor-pointer hover:scale-110 transition-all duration-1000  rounded-lg`} src={event[2].images} onClick={() => setter(2)}></img><p className='bg-back text-white pt-1 pb-1 m-2 rounded border-2'>{event[2].name}</p></div>
+           <div className=' h-40 inline-block text-center '><img className={`${card==3 ? 'border-4  border-teal-300':''} w-52 h-40 m-2 inline-block cursor-pointer hover:scale-110 transition-all duration-1000  rounded-lg`} src={event[3].images} onClick={() => setter(3)}></img><p className='bg-back text-white pt-1 pb-1  m-2 rounded border-2'>{event[3].name}</p></div>
+           <div className=' h-40 inline-block text-center'><img className={`${card==4 ? 'border-4  border-teal-300':''} w-52 h-40 m-2 inline-block cursor-pointer hover:scale-110 transition-all duration-1000  rounded-lg`} src={event[4].images} onClick={() => setter(4)}></img><p className='bg-back text-white pt-1 pb-1 m-2 rounded border-2'>{event[4].name}</p></div>
+           <div className=' h-40 inline-block text-center '><img className={`${card==5 ? 'border-4  border-teal-300':''} w-52 h-40 m-2 inline-block cursor-pointer hover:scale-110 transition-all duration-1000  rounded-lg`} src={event[5].images} onClick={() => setter(5)}></img><p className='bg-back text-white pt-1 pb-1 m-2 rounded border-2'>{event[5].name}</p></div>
+           <div className=' h-40 inline-block text-center'><img className={`${card==6 ? 'border-4  border-teal-300':''} w-52 h-40 m-2 inline-block cursor-pointer hover:scale-110 transition-all duration-1000  rounded-lg`} src={event[6].images} onClick={() => setter(6)}></img><p className='bg-back text-white pt-1 pb-1  m-2 rounded border-2'>{event[6].name}</p></div>
+           <div className=' h-40 inline-block text-center'><img className={`${card==7 ? 'border-4  border-teal-300':''} w-52 h-40 m-2 inline-block cursor-pointer hover:scale-110 transition-all duration-1000  rounded-lg`} src={event[7].images} onClick={() => setter(7)}></img><p className='bg-back text-white pt-1 pb-1  m-2 rounded border-2'>{event[7].name}</p></div>
     
        </div>
+
+       </div>
        
 
        
@@ -102,7 +103,6 @@ const Events = () => {
        
        </div>
 
-    </div>
      
      
    </>
