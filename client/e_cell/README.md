@@ -1,3 +1,13 @@
+# FIGMA LINK
+https://www.figma.com/file/kSFnhvTUBqSvUEXuxT3ibf/Untitled?node-id=0%3A1&t=7yljHHdcJxFTc5it-0
+
+
+# NETLIFY LINK
+https://better-ecell-website.netlify.app/#Get
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

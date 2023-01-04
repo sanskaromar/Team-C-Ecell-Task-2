@@ -31,7 +31,7 @@ function Navbar()
            <img className='w-10 rounded-full hover:scale-110' src='https://ecellmnnit.com//images/footer/ECellLogo.jpeg'></img>
          </div>
 
-         <div className=' items-center gap-10 p-2 hidden  lg:flex flex-row  text-white' >
+         <div className=' items-center gap-10 p-2 hidden  lg:flex flex-row  text-white mr-[30px]' >
                <p className='hover:bg-gray-700 hover:rounded-lg p-1 drop-shadow-lg cursor-pointer' ><a href='#Home'>Home</a></p>
                <p className='hover:bg-gray-700 hover:rounded-lg p-1 drop-shadow-lg cursor-pointer' ><a href='#Event'>Event</a></p>
                <p className='hover:bg-gray-700 hover:rounded-lg p-1 drop-shadow-lg cursor-pointer' ><a href='#Startup'>Startup</a></p>
