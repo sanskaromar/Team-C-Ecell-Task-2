@@ -7,7 +7,7 @@ const Form = ()=>{
       var name=document.getElementById('input_name').value;
       var email=document.getElementById('input_email').value;
       var msg=document.getElementById('input_msg').value;
-      if(name==="" || msg===" " || email===""){
+      if(name==="" || msg==="" || email===""){
         alert("All Enteries Must Be Filled!!");
       }
       else{

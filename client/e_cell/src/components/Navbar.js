@@ -31,12 +31,12 @@ function Navbar()
          </div>
 
          <div className=' items-center gap-10 p-2 hidden  lg:flex flex-row  text-white' >
-               <p className='hover:bg-gray-700 hover:rounded-lg p-1 drop-shadow-lg cursor-pointer' onClick={()=>Scroll=0}>Home</p>
-               <p className='hover:bg-gray-700 hover:rounded-lg p-1 drop-shadow-lg cursor-pointer' onClick={()=>Scroll=1}>Event</p>
-               <p className='hover:bg-gray-700 hover:rounded-lg p-1 drop-shadow-lg cursor-pointer' onClick={()=>Scroll=2}>Startup</p>
-               <p className='hover:bg-gray-700 hover:rounded-lg p-1 drop-shadow-lg cursor-pointer' onClick={()=>Scroll=3}>Webinar</p>
-               <p className='hover:bg-gray-700 hover:rounded-lg p-1 drop-shadow-lg cursor-pointer' onClick={()=>Scroll=4}>Team</p>
-               <p className='hover:bg-gray-700 hover:rounded-lg p-1 drop-shadow-lg cursor-pointer' onClick={()=>Scroll=5}>Contact</p>
+               <p className='hover:bg-gray-700 hover:rounded-lg p-1 drop-shadow-lg cursor-pointer' onClick={()=>Scroll=0}><a href='#Home'>Home</a></p>
+               <p className='hover:bg-gray-700 hover:rounded-lg p-1 drop-shadow-lg cursor-pointer' onClick={()=>Scroll=1}><a href='#Event'>Event</a></p>
+               <p className='hover:bg-gray-700 hover:rounded-lg p-1 drop-shadow-lg cursor-pointer' onClick={()=>Scroll=2}><a href='#Startup'>Startup</a></p>
+               <p className='hover:bg-gray-700 hover:rounded-lg p-1 drop-shadow-lg cursor-pointer' onClick={()=>Scroll=3}><a href='#Webinar'>Webinar</a></p>
+               <p className='hover:bg-gray-700 hover:rounded-lg p-1 drop-shadow-lg cursor-pointer' onClick={()=>Scroll=4}><a href='#Team'>Team</a></p>
+               <p className='hover:bg-gray-700 hover:rounded-lg p-1 drop-shadow-lg cursor-pointer' onClick={()=>Scroll=5}><a href='#Get'>Contact</a></p>
          </div> 
          
        

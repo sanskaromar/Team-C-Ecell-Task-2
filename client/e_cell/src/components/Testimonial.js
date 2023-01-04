@@ -26,7 +26,7 @@ const Testimonial =()=>{
     }
     return(
         <>
-        <div className="bg-back">
+        <div id="Webinar" className="bg-back">
         <div className=" p-[20px] bg-back flex justify-center items-center"><h1 className="mt-4 pt-8 text-pblue font-bold text-3xl ">Lines Of Appreciation</h1></div>
         <div className=" bg-back pt-[30px] pb-[50px] w-full flex justify-center items-center ">
             

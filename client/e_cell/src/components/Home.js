@@ -9,7 +9,7 @@ const Home = () => {
   return (
 
 <>
-    <div className='w-full'>
+    <div id="Home" className='w-full'>
        
        <div className=" bg-[url('https://c4.wallpaperflare.com/wallpaper/413/925/249/minimalism-abstract-pattern-digital-art-wallpaper-preview.jpg')] h-[900px] bg-cover bg-fixed flex flex-col  items-center">
        

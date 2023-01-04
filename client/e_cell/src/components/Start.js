@@ -12,7 +12,7 @@ const Start = () => {
    
   return (
     <>
-      <div className='bg-sec'>
+      <div id='Startup' className='bg-sec'>
         <div className='h-40 w-screen flex justify-center items-center'>
            <p className='text-white font-bold text-[34px]'>Startups</p>
         </div>

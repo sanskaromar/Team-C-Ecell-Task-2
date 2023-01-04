@@ -24,7 +24,7 @@ const Layout = () => {
   return (
     <div className='w-full h-full flex flex-col bg-back relative '>
      
-     <div className=' top-0'>
+     <div className='top-0'>
      <Navbar/>
      </div>
 

@@ -46,7 +46,7 @@ const Events = () => {
   }
   return (
    <>
-   <div className='Event Main flex flex-col items-center mb-[60px]'>
+   <div id='Event' className='Event Main flex flex-col items-center mb-[60px]'>
         <h1 data-aos="zoom-in" className='text-blue font-bold text-3xl mb-[40px] aos-init aos-animate'>Events</h1>
        <div className='Info Box w-full p-4 flex flex-col justify-around   lg:items-center lg:flex-row '>
             
@@ -79,7 +79,7 @@ const Events = () => {
        </div>
 
         
-        <div className='flex w-screen'>
+        <div className='flex w-screen justify-center'>
         
        <div id='slider' className='bg-back overflow-x-scroll h-[230px]  scroll-smooth whitespace-nowrap scrollbar-hide '>
            
